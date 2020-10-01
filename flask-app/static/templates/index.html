@@ -1,0 +1,17 @@
+<link href="https://fonts.googleapis.com/css2?family=B612&display=swap" rel="stylesheet"> 
+<script src = '../js/main.js'></script>
+<body style = "font-family: 'B612', sans-serif; background-color:#00cceb;">
+    <div align = 'center'>
+        <h1 style = 'color:white'>Name that fruit!</h1>
+        <br>
+        <form enctype = 'multipart/form-data' method = 'post'>
+            <t style = 'font-size: small; color:white'>Upload your image here</t>
+            <br><br>
+            <input name = 'data-in' type = 'file'>
+            <input type = 'submit' value = 'Submit'>
+        </form>
+        {%if alert != ''%}
+            <t style = 'color:#ff5500;'>{{alert}}</t>
+        {%endif%}
+    </div>
+</body>
