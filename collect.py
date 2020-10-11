@@ -35,7 +35,6 @@ for img, label in train_data:
 
 X = np.array(X).reshape(-1, 100, 100, 3)
 y = np.array(y).reshape(-1, len(categories))
-print(y[0])
 
 feature_file = open('features.out', 'wb')
 label_file = open('labels.out', 'wb')

@@ -1,8 +1,8 @@
 # Fruit identification conv net using Keras and TensorFlow
 ## To use:
 * Download this repo
-* Download the fruits-360 dataset @ https://www.kaggle.com/moltean/fruits
-* Run collect.py to collect training data, train.py to train a model, and predict.py to test your model
+* Make sure all python dependencies are satisfied by running pip install -r requirements.txt
+* Navigate to the flask-app directory, run server.py
  
 ## Future plans:
-* Make this more accessible through a Flask webapp, maybe add additional features to make this more useful
+* Figure out how to tune the model to increase its accuracy - right now, its predictions on non-training data are very inconsistent

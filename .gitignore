@@ -1,3 +1,6 @@
 /fruits-360/*
+
 *.out
-*.model
+!categories.out
+
+/flask-app/uploads
